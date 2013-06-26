@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HBI Documentation feature.
+ */
+
+include_once 'hbi_documentation.features.inc';
