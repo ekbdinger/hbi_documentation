@@ -1,6 +1,7 @@
 name = HBI Documentation
 core = 7.x
 package = hbi
+php = 5.2.4
 dependencies[] = features
 dependencies[] = file
 dependencies[] = node
@@ -42,8 +43,8 @@ features[variable][] = node_submitted_ebo_documentation
 features[views_view][] = ebo_documentation_list
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][options] = options
-features_exclude[field_base][field_ebo_categories] = field_ebo_categories
 features_exclude[field][node-ebo_documentation-field_ebo_categories] = node-ebo_documentation-field_ebo_categories
 features_exclude[field][node-ebo_documentation-field_ebo_document] = node-ebo_documentation-field_ebo_document
 features_exclude[field][node-ebo_documentation-field_ebo_doc_description] = node-ebo_documentation-field_ebo_doc_description
+features_exclude[field_base][field_ebo_categories] = field_ebo_categories
 features_exclude[taxonomy][ebo_categories] = ebo_categories

@@ -81,6 +81,7 @@ function hbi_documentation_views_default_views() {
   $handler->display->display_options['fields']['field_ebo_categories']['table'] = 'field_data_field_ebo_categories';
   $handler->display->display_options['fields']['field_ebo_categories']['field'] = 'field_ebo_categories';
   $handler->display->display_options['fields']['field_ebo_categories']['label'] = 'Category';
+  $handler->display->display_options['fields']['field_ebo_categories']['delta_limit'] = 'all';
   /* Field: Content: eBO Users */
   $handler->display->display_options['fields']['field_ebo_users']['id'] = 'field_ebo_users';
   $handler->display->display_options['fields']['field_ebo_users']['table'] = 'field_data_field_ebo_users';
